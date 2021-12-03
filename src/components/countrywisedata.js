@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
 import Table from 'react-bootstrap/esm/Table';
-import Form from 'react-bootstrap/esm/Form';
 
 export const CountrywiseData = () => {
     const [countries, setCountries] = React.useState([]);

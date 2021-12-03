@@ -1,8 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
-import Table from 'react-bootstrap/Table';
-import { alignPropType } from 'react-bootstrap/esm/types';
 import TableData from './tabledata';
 export const CountryList = () => {
     const [countries, setCountries] = React.useState([]);
